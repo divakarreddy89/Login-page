@@ -1,0 +1,55 @@
+.Login {
+  min-height: 400px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  width: 350px;
+  background-color: #68bfa8;
+}
+
+.Login form {
+  margin: 0 auto;
+  max-width: 320px;
+}
+.Login form > div {
+  margin: 0 0 20px 0;
+}
+.Login img {
+  width: 100px;
+  height: 100px;
+}
+
+.Login label {
+  display: block;
+  text-align: left;
+  padding: 0 0 0 15px;
+  font-size: 1rem;
+}
+.errors {
+  color: red;
+  font-size: 12px;
+  text-align: start;
+  padding: 0px 15px;
+  margin: 5px;
+}
+.email,
+.password {
+  width: 300px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+}
+.email.err,
+.password.err {
+  border: 2px solid red;
+}
+input::placeholder {
+  padding: 0 5px;
+}
+.Login button {
+  width: 300px;
+  height: 30px;
+  background: #206b5e;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  margin: 0 0 50px 0;
+}

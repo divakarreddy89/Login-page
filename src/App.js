@@ -4,10 +4,8 @@ import LoginForm from "./loginForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <LoginForm />
-      </header>
+    <div className="App-header">
+      <LoginForm />
     </div>
   );
 }
